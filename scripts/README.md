@@ -1,4 +1,3 @@
-Certainly! Here's a sample README for the Kubernetes plugin:
 
 # Kubernetes Plugin - `kubeplugin`
 
