@@ -21,13 +21,13 @@ kubectl kubeplugin <RESOURCE_TYPE> <NAMESPACE>
 1. Make the script executable:
 
    ```
-   chmod +x kubeplugin.sh
+   chmod +x kubeplugin
    ```
 
-2. Add the plugin to the PATH:
+2. Install the plugin according to the [doc](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/#installing-kubectl-plugins):
 
    ```
-   export PATH=$PATH:/path/to/kubectl-kubeplugin
+   cp kubeplugin /usr/bin/kubectl-kubeplugin
    ```
 
 3. Example of usage:
